@@ -37,6 +37,26 @@ set guioptions-=L
 set background=dark
 colorscheme peaksea
 
+" Highlight current line
+set cursorline
+
+" Highlight current column
+"set cursorcolumn
+
+" Display line numbers
+set number
+
+" show hidden characters in Vim
+:set list
+" settings for hidden chars
+" what particular chars they are displayed with
+":set lcs=tab:▒░,trail:▓
+" or
+":set listchars=tab:▒░,trail:▓
+:set lcs=tab:>-,trail:-
+" In Vim help they suggest using ">-" for tab and "-" for trail.
+" hide hidden chars
+":set nolist
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
