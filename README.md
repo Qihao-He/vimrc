@@ -17,7 +17,7 @@ The awesome version includes a lot of great plugins, configurations and color sc
 	
 	For My personal repository
 	git clone "my SSH/HTTPS repository" ~/.vim_runtime
-	sh ~/.vim_runtime/install_basic_vimrc.sh
+	sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 I also recommend using [Source Code Pro font from Adobe](http://store1.adobe.com/cfusion/store/html/index.cfm?event=displayFontPackage&code=1960) (it's free and awesome font for writing and programming). The Awesome vimrc is already setup to try to use it
 
